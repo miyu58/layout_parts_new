@@ -1,5 +1,100 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q5_mainbox {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background-color: #ecf1f2;
+  margin: 0 auto;
+}
+
+.number_box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.number9 {
+  background-color: #2b69a3;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+
+}
+
+.number1 {
+  background-color: #ffefd3;
+  left: 200px;
+  top: 40px;
+  z-index: 10;
+}
+
+.number2 {
+  background-color: #7084de;
+  left: 280px;
+  top: 120px;
+  z-index: 20;
+}
+
+.number3 {
+  background-color: #d0ecea;
+  left: 360px;
+  top: 200px;
+  z-index: 30;
+}
+
+.number4 {
+  background-color: #8d7a5e;
+  left: 280px;
+  top: 280px;
+  z-index: 40;
+}
+
+
+.number5 {
+  background-color: #9fd6d2;
+  left: 200px;
+  top: 360px;
+  z-index: 50;
+}
+
+.number6 {
+  background-color: #fffee4;
+  left: 120px;
+  top: 280px;
+  z-index: 60;
+}
+
+.number7 {
+  background-color: #deae70;
+  left: 40px;
+  top: 200px;
+  z-index: 70;
+}
+
+.number8 {
+  background-color: #de70cf;
+  left: 120px;
+  top: 120px;
+  z-index: 80;
+}
+
+.number8::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
 
 /* 回答はここに書いてね */

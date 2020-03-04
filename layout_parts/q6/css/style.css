@@ -2,4 +2,41 @@
 
 /* 回答はここに書いてね */
 
+/* ========================================
+   q6-1
+========================================= */
+
+.text_align {
+  text-align: center;
+}
+
+.text {
+  width: 90px;
+  padding: 10px 5px;
+  background-color: #e6f2ff;
+  display: inline-block;
+}
+
+
+.margin_text {
+  width: 60px;
+  padding: 10px;
+  background-color: #e6f2ff;
+  margin: 0 auto;
+}
+
+/* ========================================
+   q6-2
+========================================= */
+.q6--around {
+  display: table;
+}
+
+.table_text {
+  display: table-cell;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
 /* 回答はここに書いてね */
