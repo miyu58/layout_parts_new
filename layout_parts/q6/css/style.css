@@ -28,15 +28,57 @@
 /* ========================================
    q6-2
 ========================================= */
-.q6--around {
+.table {
   display: table;
+
+}
+.table_cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .table_text {
-  display: table-cell;
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex_text {
   padding: 10px;
   background-color: #fff;
 }
 
+/* ========================================
+   q6-固定可変
+========================================= */
+.left_posi {
+  position: relative;
+}
+.position {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.right_posi {
+  position: relative;
+}
+
+.position_2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
 
 /* 回答はここに書いてね */
