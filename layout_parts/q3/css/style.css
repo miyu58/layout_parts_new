@@ -5,42 +5,44 @@
 
 .menu {
   margin: 0 auto;
+  border-top: 1px solid #dedede;
 }
 
-.table_row {
+.menu tr {
   width: 100%;
   display: table;
   table-layout: fixed;
   text-align: center;
 }
 
-.table_row:nth-child(odd) {
+.menu tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
-
-.table_row:not(:nth-child(5)) {
+.menu tr:not(:nth-child(5)){
   border-bottom: 1px solid #dedede;
 }
 
-.table_row:nth-child(5) {
-  border-bottom: 2px dashed #000;
+.menu tr:nth-child(6){
+  border-top: 2px dashed #000;
 }
 
-.table_blue {
+
+.menu th {
   font-size: 18px;
   line-height: 26px;
   color: #fff;
+  padding: 10px;
   background-color: #2244aa;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
 }
 
-.table_data {
+.menu td {
   border-right: 1px solid #dedede;
   padding: 10px 0;
 }
 
-.table_data:last-child {
-  border-right: none;
-}
+
 
 
 
