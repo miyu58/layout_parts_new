@@ -11,21 +11,11 @@
 
 .number_box {
   width: 100px;
-  height: 100px;
   position: absolute;
   text-align: center;
   line-height: 100px;
   font-weight: bold;
   font-size: 30px;
-}
-
-
-.number9 {
-  background-color: #2b69a3;
-  position: fixed;
-  left: 10px;
-  top: 10px;
-
 }
 
 .number1 {
@@ -37,22 +27,22 @@
 
 .number2 {
   background-color: #7084de;
-  left: 280px;
+  right: 120px;
   top: 120px;
   z-index: 20;
 }
 
 .number3 {
   background-color: #d0ecea;
-  left: 360px;
+  right: 40px;
   top: 200px;
   z-index: 30;
 }
 
 .number4 {
   background-color: #8d7a5e;
-  left: 280px;
-  top: 280px;
+  right: 120px;
+  bottom: 120px;
   z-index: 40;
 }
 
@@ -60,7 +50,7 @@
 .number5 {
   background-color: #9fd6d2;
   left: 200px;
-  top: 360px;
+  bottom: 40px;
   z-index: 50;
 }
 
@@ -94,6 +84,14 @@
   top: 0;
   right: 0;
 }
+
+.number9 {
+  background-color: #2b69a3;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+
 
 
 

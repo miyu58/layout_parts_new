@@ -11,15 +11,16 @@
 .main_box {
   display: table;
   width: 100%;
+  margin-bottom: 20px;
+}
+.main_box:last-child {
+  margin-bottom: 0;
 }
 
-.box {
+.color_box {
   text-align: center;
   padding: 20px;
-}
-
-.margin_box {
-  margin-bottom: 20px;
+  display: table-cell;
 }
 
 /* ========================================
@@ -28,21 +29,15 @@
 .orange {
   width: 100px;
   background-color: #fdc8b8;
-  display: table-cell;
 }
 
 .pink {
   background-color: #e0abd9;
-  display: table-cell;
-  
 }
 
 .blue {
   background-color: #b6d8ed;
   width: 100px;
-  display: table-cell;
-  
-
 }
 
 /* ========================================
@@ -50,24 +45,15 @@
 ========================================= */
 .yellow {
   background-color: #e5d32e;
-  display: table-cell;
-  
 }
 
 .red {
   background-color: #ec8f9a;
-  display: table-cell;
-  
 }
 
 .green {
   width: 500px;
   background-color: #8fdcad;
-  display: table-cell;
-  
 }
-
-
-
 
 /* 回答はここに書いてね */

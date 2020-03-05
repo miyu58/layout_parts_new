@@ -15,17 +15,17 @@
   text-align: center;
 }
 
-.menu tr:nth-child(odd) {
+.menu tr:nth-child(even) {
   background-color: #ecf1f2;
 }
-.menu tr:not(:nth-child(5)){
+
+.menu tr:not(:nth-child(4)){
   border-bottom: 1px solid #dedede;
 }
 
-.menu tr:nth-child(6){
+.menu tfoot {
   border-top: 2px dashed #000;
 }
-
 
 .menu th {
   font-size: 18px;
