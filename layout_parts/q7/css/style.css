@@ -5,37 +5,101 @@
 /* ========================================
     float
 ========================================= */
-.main_box{
-  width: 225px;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
+.main_box {
+  width: 225px;
+  box-sizing: border-box;
+}
 
+.box_left {
+  float: left;
+  margin-right: 50px;
+}
 
+.box_right {
+  float: right;
+}
 /* ========================================
     table
 ========================================= */
+.is-table {
+  display: table;
+}
 
+.is-cell {
+  display: table-cell;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding-right: 50px;
+}
 
+.is-content {
+  width: 225px;
+  box-sizing: border-box;
+}
 
-
+.is-cell:last-child {
+  padding-right: 0;
+}
 /* ========================================
     inline-brock
 ========================================= */
+.is-inline {
+  font-size: 0;
+}
 
+.box_inline {
+ width: 225px;
+ box-sizing: border-box;
+ display: inline-block;
+ vertical-align: middle;
+ font-size: 16px;
+}
 
-
+.box_inline:last-child {
+  margin-left: 50px;
+}
 
 /* ========================================
     flex
 ========================================= */
+.is-flexbox {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
 
-
-
-
+.is-flexitem {
+  width: 225px;
+  box-sizing: border-box;
+}
 /* ========================================
     inline-brock + margin
 ========================================= */
+.is-inlinebox {
+  font-size: 0;
+}
 
+.inline_text {
+  display: inline-block;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.left_inline {
+  width: 300px;
+ 
+}
+.right_inline {
+  width: 70%;
+  height: auto;
+  
+}
 
 
 
