@@ -2,4 +2,59 @@
 
 /* 回答はここに書いてね */
 
+/* ========================================
+    Q8-1 transition
+========================================= */
+.is-car {
+  width: 500px;
+  height: 333px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.is-car:hover .img_car {
+  transform: scale(1.5,1.5);
+  transition: 0.5s;
+}
+
+.is-text {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  word-break: break-all;
+}
+
+.inner-text {
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #fff;
+}
+
+.is-car:hover .is-text {
+  top: 0; 
+  transition: all 0.5s;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
+}
+/* ========================================
+     Q8-2 animation
+========================================= */
+
+.is-circle {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 10px solid #ecf1f2;
+  border-top-color: #00bcd4;
+  border-radius: 50%;
+  animation: circle 1.1s infinite normal linear;
+}
+
+
+
+
 /* 回答はここに書いてね */
