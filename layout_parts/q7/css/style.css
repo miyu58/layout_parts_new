@@ -68,6 +68,7 @@
 /* ========================================
     flex
 ========================================= */
+
 .is-flexbox {
   display: flex;
   align-items: flex-end;
@@ -81,26 +82,28 @@
 /* ========================================
     inline-brock + margin
 ========================================= */
-.is-inlinebox {
+.inline_main {
   font-size: 0;
+}
+
+.is-inlinebox {
   display: inline-block;
- 
+  vertical-align: top;
 }
 
 .inline_text {
-  
   font-size: 16px;
-  box-sizing: border-box;
 }
 
 .left_inline {
   width: 300px;
- 
 }
+
 .right_inline {
-  width: 70%;
-  height: auto;
-  
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
 
 

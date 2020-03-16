@@ -1,5 +1,39 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.is-foo {
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 5px solid #222;
+  border-radius: 30px;
+  position: relative;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #fff;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  position: absolute;
+  bottom: 7px;
+  left: -20px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 20px solid #222;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  position: absolute;
+  bottom: -25px;
+  left: 30px;
+}
+
+
 
 /* 回答はここに書いてね */
