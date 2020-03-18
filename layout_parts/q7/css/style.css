@@ -14,16 +14,14 @@
 .main_box {
   width: 225px;
   box-sizing: border-box;
-}
-
-.box_left {
   float: left;
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
-.box_right {
-  float: right;
+.main_box:first-child {
+  margin-left: 0;
 }
+
 /* ========================================
     table
 ========================================= */
@@ -52,17 +50,17 @@
 .is-inline {
   font-size: 0;
 }
-
 .box_inline {
- width: 225px;
- box-sizing: border-box;
- display: inline-block;
- vertical-align: middle;
- font-size: 16px;
+  width: 225px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  margin-left: 50px;
 }
 
-.box_inline:last-child {
-  margin-left: 50px;
+.box_inline:first-child {
+  margin-left: 0;
 }
 
 /* ========================================
